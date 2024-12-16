@@ -35,6 +35,7 @@ import OrdersDetail from "./Pages/ProviderSection/Pages/OrdersDetail";
 import WalletMain from "./Pages/ProviderSection/Pages/Wallet";
 import AddNewService from "./Pages/ProviderSection/Pages/AddNewService";
 import ProviderServicesMain from "./Pages/ProviderSection/Pages/ProviderServicesMain";
+import { baseUrl } from "./constant/EndPoints.js";
 
 function App() {
   // Main Routes Array
@@ -79,7 +80,6 @@ function App() {
     { path: "/provider-add-services", element: <AddNewService /> },
     { path: "/provider-services", element: <ProviderServicesMain /> },
   ];
-
   return (
     <div>
       <Router>

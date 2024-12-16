@@ -1,4 +1,4 @@
-const baseUrl = "http://164.90.156.55:9090/api";
+export const baseUrl = process.env.REACT_APP_BASE_URL;
 const adminLogin = `${baseUrl}/auth/login`;
 
 // const BaseAdminUrl = `${BaseUrl}/request/admin`;
